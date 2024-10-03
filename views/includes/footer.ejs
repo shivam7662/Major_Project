@@ -1,10 +1,16 @@
 <footer>
     <div class="f-info">
         <div class="f-info-socials">
-            <i class="fa-brands fa-square-facebook"></i>
-            <i class="fa-brands fa-square-instagram"></i>
-            <i class="fa-brands fa-linkedin"></i>
-
+            <!-- Add links to the icons -->
+            <a href="https://www.facebook.com" target="_blank" aria-label="Facebook">
+                <i class="fa-brands fa-square-facebook"></i>
+            </a>
+            <a href="https://www.instagram.com" target="_blank" aria-label="Instagram">
+                <i class="fa-brands fa-square-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/thshivam388/" target="_blank" aria-label="LinkedIn">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
         </div>
         <div class="f-info-brand">&copy; WanderLust Private Limited</div>
         <div class="f-info-links">
@@ -13,3 +19,15 @@
         </div>
     </div>
 </footer>
+
+<!-- Styles for making the icons black -->
+<style>
+    .f-info-socials a {
+        color: black; /* Set icon color to black */
+        text-decoration: none; /* Remove underline from links */
+    }
+
+    .f-info-socials a:hover {
+        color: #555; /* Optional: Darker shade on hover */
+    }
+</style>
